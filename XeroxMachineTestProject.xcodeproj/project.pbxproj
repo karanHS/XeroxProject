@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C2FF14604E6E5E43FC79C2B /* Pods_XeroxMachineTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60680EC878D9C5612F3F15FD /* Pods_XeroxMachineTestProject.framework */; };
+		995E20FA2C9CD75C00CF21F6 /* DeviceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E20F92C9CD75C00CF21F6 /* DeviceListTableViewCell.swift */; };
+		995E20FC2C9CE14E00CF21F6 /* DeviceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E20FB2C9CE14E00CF21F6 /* DeviceListViewModel.swift */; };
+		995E20FE2C9CE2CB00CF21F6 /* DeviceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E20FD2C9CE2CB00CF21F6 /* DeviceDetailsViewController.swift */; };
+		995E21002C9CE34100CF21F6 /* DeviceDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E20FF2C9CE34100CF21F6 /* DeviceDetailsViewModel.swift */; };
+		99A2523D2C9FDFE50039595C /* IPDeatailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2523C2C9FDFE50039595C /* IPDeatailsModel.swift */; };
+		99A2523F2C9FE0B50039595C /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2523E2C9FE0B50039595C /* ServiceAPI.swift */; };
+		99A252412C9FE1470039595C /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A252402C9FE1470039595C /* Webservice.swift */; };
+		99A252432C9FE4570039595C /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A252422C9FE4570039595C /* RequestService.swift */; };
+		99A2524B2C9FE7670039595C /* DeviceListCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99A252492C9FE7670039595C /* DeviceListCoreDataModel.xcdatamodeld */; };
+		99C86AE92C9C9262008A55AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C86AE82C9C9262008A55AA /* AppDelegate.swift */; };
+		99C86AEB2C9C9262008A55AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C86AEA2C9C9262008A55AA /* SceneDelegate.swift */; };
+		99C86AED2C9C9262008A55AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C86AEC2C9C9262008A55AA /* ViewController.swift */; };
+		99C86AF02C9C9262008A55AA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 99C86AEF2C9C9262008A55AA /* Base */; };
+		99C86AF22C9C9263008A55AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C86AF12C9C9263008A55AA /* Assets.xcassets */; };
+		99C86AF52C9C9263008A55AA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 99C86AF42C9C9263008A55AA /* Base */; };
+		99C86AFE2C9CA155008A55AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C86AFD2C9CA155008A55AA /* LoginViewController.swift */; };
+		99C86B012C9CA30A008A55AA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C86B002C9CA30A008A55AA /* NetworkManager.swift */; };
+		99C86B042C9CA7E1008A55AA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C86B032C9CA7E1008A55AA /* LoginViewModel.swift */; };
+		99C86B062C9CAB00008A55AA /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C86B052C9CAB00008A55AA /* DeviceListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60680EC878D9C5612F3F15FD /* Pods_XeroxMachineTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XeroxMachineTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBBE0E7A4E6F544B0B38199 /* Pods-XeroxMachineTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XeroxMachineTestProject.debug.xcconfig"; path = "Target Support Files/Pods-XeroxMachineTestProject/Pods-XeroxMachineTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		995E20F92C9CD75C00CF21F6 /* DeviceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListTableViewCell.swift; sourceTree = "<group>"; };
+		995E20FB2C9CE14E00CF21F6 /* DeviceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListViewModel.swift; sourceTree = "<group>"; };
+		995E20FD2C9CE2CB00CF21F6 /* DeviceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailsViewController.swift; sourceTree = "<group>"; };
+		995E20FF2C9CE34100CF21F6 /* DeviceDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailsViewModel.swift; sourceTree = "<group>"; };
+		99A2523C2C9FDFE50039595C /* IPDeatailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPDeatailsModel.swift; sourceTree = "<group>"; };
+		99A2523E2C9FE0B50039595C /* ServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
+		99A252402C9FE1470039595C /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		99A252422C9FE4570039595C /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		99A2524A2C9FE7670039595C /* DeviceListCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeviceListCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		99C86AE52C9C9262008A55AA /* XeroxMachineTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeroxMachineTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C86AE82C9C9262008A55AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99C86AEA2C9C9262008A55AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99C86AEC2C9C9262008A55AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99C86AEF2C9C9262008A55AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99C86AF12C9C9263008A55AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99C86AF42C9C9263008A55AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99C86AF62C9C9263008A55AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C86AFD2C9CA155008A55AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		99C86B002C9CA30A008A55AA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		99C86B032C9CA7E1008A55AA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		99C86B052C9CAB00008A55AA /* DeviceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
+		EB421ED07940DB96A0FC051D /* Pods-XeroxMachineTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XeroxMachineTestProject.release.xcconfig"; path = "Target Support Files/Pods-XeroxMachineTestProject/Pods-XeroxMachineTestProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C86AE22C9C9262008A55AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2FF14604E6E5E43FC79C2B /* Pods_XeroxMachineTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AD99323897354EC220CF2C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CBBE0E7A4E6F544B0B38199 /* Pods-XeroxMachineTestProject.debug.xcconfig */,
+				EB421ED07940DB96A0FC051D /* Pods-XeroxMachineTestProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99A2523B2C9FDFCA0039595C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99A2523C2C9FDFE50039595C /* IPDeatailsModel.swift */,
+				99A252492C9FE7670039595C /* DeviceListCoreDataModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99A2524C2C9FEA2E0039595C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				995E20F92C9CD75C00CF21F6 /* DeviceListTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		99C86ADC2C9C9262008A55AA = {
+			isa = PBXGroup;
+			children = (
+				99C86AE72C9C9262008A55AA /* XeroxMachineTestProject */,
+				99C86AE62C9C9262008A55AA /* Products */,
+				8AD99323897354EC220CF2C2 /* Pods */,
+				A28F0745AF3C4304D0135023 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99C86AE62C9C9262008A55AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C86AE52C9C9262008A55AA /* XeroxMachineTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C86AE72C9C9262008A55AA /* XeroxMachineTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				99C86AE82C9C9262008A55AA /* AppDelegate.swift */,
+				99C86AEA2C9C9262008A55AA /* SceneDelegate.swift */,
+				99C86AEC2C9C9262008A55AA /* ViewController.swift */,
+				99A2523B2C9FDFCA0039595C /* Model */,
+				99C86AFF2C9CA2DE008A55AA /* ApiHandlers */,
+				99C86B022C9CA7B2008A55AA /* viewModel */,
+				99C86AFC2C9CA134008A55AA /* ViewControllers */,
+				99C86AEE2C9C9262008A55AA /* Main.storyboard */,
+				99C86AF12C9C9263008A55AA /* Assets.xcassets */,
+				99C86AF32C9C9263008A55AA /* LaunchScreen.storyboard */,
+				99C86AF62C9C9263008A55AA /* Info.plist */,
+			);
+			path = XeroxMachineTestProject;
+			sourceTree = "<group>";
+		};
+		99C86AFC2C9CA134008A55AA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				99C86AFD2C9CA155008A55AA /* LoginViewController.swift */,
+				99C86B052C9CAB00008A55AA /* DeviceListViewController.swift */,
+				995E20FD2C9CE2CB00CF21F6 /* DeviceDetailsViewController.swift */,
+				99A2524C2C9FEA2E0039595C /* Cells */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		99C86AFF2C9CA2DE008A55AA /* ApiHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				99C86B002C9CA30A008A55AA /* NetworkManager.swift */,
+				99A252402C9FE1470039595C /* Webservice.swift */,
+				99A2523E2C9FE0B50039595C /* ServiceAPI.swift */,
+				99A252422C9FE4570039595C /* RequestService.swift */,
+			);
+			path = ApiHandlers;
+			sourceTree = "<group>";
+		};
+		99C86B022C9CA7B2008A55AA /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				99C86B032C9CA7E1008A55AA /* LoginViewModel.swift */,
+				995E20FB2C9CE14E00CF21F6 /* DeviceListViewModel.swift */,
+				995E20FF2C9CE34100CF21F6 /* DeviceDetailsViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		A28F0745AF3C4304D0135023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60680EC878D9C5612F3F15FD /* Pods_XeroxMachineTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C86AE42C9C9262008A55AA /* XeroxMachineTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C86AF92C9C9263008A55AA /* Build configuration list for PBXNativeTarget "XeroxMachineTestProject" */;
+			buildPhases = (
+				5626A7B86C877C6CA0C49320 /* [CP] Check Pods Manifest.lock */,
+				99C86AE12C9C9262008A55AA /* Sources */,
+				99C86AE22C9C9262008A55AA /* Frameworks */,
+				99C86AE32C9C9262008A55AA /* Resources */,
+				35D7FD7EB07A02C4B36497DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XeroxMachineTestProject;
+			productName = XeroxMachineTestProject;
+			productReference = 99C86AE52C9C9262008A55AA /* XeroxMachineTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C86ADD2C9C9262008A55AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					99C86AE42C9C9262008A55AA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 99C86AE02C9C9262008A55AA /* Build configuration list for PBXProject "XeroxMachineTestProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99C86ADC2C9C9262008A55AA;
+			productRefGroup = 99C86AE62C9C9262008A55AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C86AE42C9C9262008A55AA /* XeroxMachineTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C86AE32C9C9262008A55AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C86AF22C9C9263008A55AA /* Assets.xcassets in Resources */,
+				99C86AF52C9C9263008A55AA /* Base in Resources */,
+				99C86AF02C9C9262008A55AA /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35D7FD7EB07A02C4B36497DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XeroxMachineTestProject/Pods-XeroxMachineTestProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XeroxMachineTestProject/Pods-XeroxMachineTestProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XeroxMachineTestProject/Pods-XeroxMachineTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5626A7B86C877C6CA0C49320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XeroxMachineTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C86AE12C9C9262008A55AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A2523F2C9FE0B50039595C /* ServiceAPI.swift in Sources */,
+				995E20FC2C9CE14E00CF21F6 /* DeviceListViewModel.swift in Sources */,
+				99C86AFE2C9CA155008A55AA /* LoginViewController.swift in Sources */,
+				99C86AED2C9C9262008A55AA /* ViewController.swift in Sources */,
+				995E21002C9CE34100CF21F6 /* DeviceDetailsViewModel.swift in Sources */,
+				99C86B042C9CA7E1008A55AA /* LoginViewModel.swift in Sources */,
+				99A2523D2C9FDFE50039595C /* IPDeatailsModel.swift in Sources */,
+				99A252412C9FE1470039595C /* Webservice.swift in Sources */,
+				99C86B012C9CA30A008A55AA /* NetworkManager.swift in Sources */,
+				99A2524B2C9FE7670039595C /* DeviceListCoreDataModel.xcdatamodeld in Sources */,
+				99C86AE92C9C9262008A55AA /* AppDelegate.swift in Sources */,
+				99C86AEB2C9C9262008A55AA /* SceneDelegate.swift in Sources */,
+				99C86B062C9CAB00008A55AA /* DeviceListViewController.swift in Sources */,
+				995E20FA2C9CD75C00CF21F6 /* DeviceListTableViewCell.swift in Sources */,
+				99A252432C9FE4570039595C /* RequestService.swift in Sources */,
+				995E20FE2C9CE2CB00CF21F6 /* DeviceDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99C86AEE2C9C9262008A55AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C86AEF2C9C9262008A55AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99C86AF32C9C9263008A55AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C86AF42C9C9263008A55AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99C86AF72C9C9263008A55AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99C86AF82C9C9263008A55AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C86AFA2C9C9263008A55AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBBE0E7A4E6F544B0B38199 /* Pods-XeroxMachineTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XeroxMachineTestProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Xerox Project";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xeroxProj.XeroxMachineTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99C86AFB2C9C9263008A55AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB421ED07940DB96A0FC051D /* Pods-XeroxMachineTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XeroxMachineTestProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Xerox Project";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xeroxProj.XeroxMachineTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C86AE02C9C9262008A55AA /* Build configuration list for PBXProject "XeroxMachineTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C86AF72C9C9263008A55AA /* Debug */,
+				99C86AF82C9C9263008A55AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C86AF92C9C9263008A55AA /* Build configuration list for PBXNativeTarget "XeroxMachineTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C86AFA2C9C9263008A55AA /* Debug */,
+				99C86AFB2C9C9263008A55AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99A252492C9FE7670039595C /* DeviceListCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99A2524A2C9FE7670039595C /* DeviceListCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 99A2524A2C9FE7670039595C /* DeviceListCoreDataModel.xcdatamodel */;
+			name = DeviceListCoreDataModel.xcdatamodeld;
+			path = /Users/hoffensoft/Desktop/XeroxMachineTestProject/XeroxMachineTestProject/Model/DeviceListCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99C86ADD2C9C9262008A55AA /* Project object */;
+}
